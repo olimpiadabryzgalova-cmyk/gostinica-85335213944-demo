@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow" data-publish>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Гостиница «Саха Люкс» – рядом с аэропортом Якутска</title>
+<meta name="description" content="Бюджетная гостиница рядом с аэропортом Якутска: номера-студии, завтрак, все удобства в номере.">
+<meta property="og:title" content="Гостиница «Саха Люкс» – рядом с аэропортом Якутска">
+<meta property="og:description" content="Бюджетная гостиница рядом с аэропортом Якутска: номера-студии, завтрак, все удобства в номере.">
+<meta property="og:image" content="assets/hero.webp">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2313304F'/%3E%3Crect x='11' y='9' width='10' height='14' rx='2' fill='%23E2B43E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Onest:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--night:#13304F;--ice:#E3EBF4;--snow:#F8FAF9;--ink:#17242A;--mist:#56676E;--lamp:#E2B43E;--lamp-ink:#2A1A05;--gut:clamp(16px,4.5vw,64px);--serif:Literata,Georgia,serif;--sans:Onest,system-ui,sans-serif}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--snow);color:var(--ink);font:400 17px/1.6 var(--sans)}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3,p,ul,figure,blockquote{margin:0;padding:0}
+ul{list-style:none}
+:focus-visible{outline:3px solid var(--lamp);outline-offset:3px}
+h1,h2{font-family:var(--serif);font-weight:650;line-height:1.12;letter-spacing:-.01em}
+h2{font-size:clamp(1.7rem,1.2rem + 2vw,2.6rem);max-width:22ch}
+.wrap{padding:clamp(56px,8vw,112px) var(--gut)}
+.lead{color:var(--mist);max-width:56ch;margin-top:14px}
+
+/* шапка */
+.top{position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px var(--gut);background:color-mix(in srgb,var(--snow) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid color-mix(in srgb,var(--night) 12%,transparent)}
+.top__name{font:650 1.12rem/1.2 var(--serif);text-decoration:none}
+.top__right{display:flex;align-items:center;gap:18px}
+.top__tel{font-weight:500;text-decoration:none;white-space:nowrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 22px;border-radius:999px;background:var(--lamp);color:var(--lamp-ink);font:700 1rem/1.2 var(--sans);text-decoration:none;border:0;cursor:pointer}
+.btn:hover{filter:brightness(1.06)}
+.btn--sm{padding:10px 16px;font-size:.92rem}
+
+/* первый экран: фото и «ночная» колонка с биркой */
+.hero{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);min-height:min(88svh,820px);background:var(--night);color:var(--snow)}
+.hero__photo{position:relative;overflow:hidden}
+.hero__photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%}
+.hero__text{display:flex;flex-direction:column;justify-content:center;gap:20px;padding:clamp(36px,5vw,72px) var(--gut)}
+.hero h1{font-size:clamp(2rem,1.3rem + 2.6vw,3.3rem)}
+.hero__offer{color:color-mix(in srgb,var(--snow) 80%,var(--night));max-width:38ch;font-size:1.06rem}
+.hero__rate{font-size:.95rem;color:color-mix(in srgb,var(--snow) 72%,var(--night))}
+.hero__rate b{color:var(--lamp);font-weight:700}
+
+/* бирка от ключа – форма брони */
+.tag{position:relative;margin-top:6px;max-width:420px;background:var(--snow);color:var(--ink);border-radius:22px 22px 22px 22px;padding:30px 24px 22px;box-shadow:0 18px 40px rgb(0 0 0 / .28);transform-origin:50% -24px;animation:swing 1.4s cubic-bezier(.3,1.5,.5,1) .2s both}
+.tag::before{content:"";position:absolute;top:12px;left:50%;width:18px;height:18px;margin-left:-9px;border-radius:50%;background:var(--night);box-shadow:inset 0 0 0 3px color-mix(in srgb,var(--lamp) 70%,transparent)}
+@keyframes swing{0%{transform:rotate(-7deg);opacity:0}45%{opacity:1}70%{transform:rotate(2.5deg)}100%{transform:rotate(0)}}
+@media (prefers-reduced-motion:reduce){.tag{animation:none}}
+.tag__title{font:650 1.2rem/1.25 var(--serif);text-align:center;margin:10px 0 16px}
+.tag__row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.field{display:flex;flex-direction:column;gap:4px;font-size:.85rem;color:var(--mist)}
+.field input{font:500 1rem/1.2 var(--sans);color:var(--ink);background:var(--ice);border:1px solid transparent;border-radius:12px;padding:11px 12px;width:100%}
+.field input:focus{border-color:var(--night);outline:none}
+.guests{display:flex;align-items:center;justify-content:space-between;margin-top:12px;padding:8px 8px 8px 14px;background:var(--ice);border-radius:12px}
+.guests span{color:var(--mist);font-size:.9rem}
+.guests output{font-weight:700;min-width:2ch;text-align:center}
+.step{width:36px;height:36px;border-radius:50%;border:0;background:var(--snow);color:var(--ink);font:700 1.1rem/1 var(--sans);cursor:pointer}
+.tag__note{font-size:.88rem;color:var(--mist);margin:12px 2px 14px;min-height:1.4em}
+.tag .btn{width:100%}
+.tag__alt{display:block;text-align:center;margin-top:12px;font-size:.92rem;color:var(--mist)}
+
+/* почему выбирают */
+.why{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.4fr);gap:clamp(28px,5vw,80px);align-items:start}
+.why__list{display:grid;gap:26px}
+.why__list li{padding-left:22px;border-left:3px solid var(--lamp)}
+.why__list b{display:block;font:650 1.15rem/1.3 var(--serif);margin-bottom:4px}
+.why__list p{color:var(--mist)}
+
+/* номера и цены */
+.rooms{background:var(--ice)}
+.rooms__table{margin-top:32px;max-width:860px}
+.room{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 24px;padding:18px 0;border-bottom:1px solid color-mix(in srgb,var(--night) 16%,transparent)}
+.room:first-child{border-top:1px solid color-mix(in srgb,var(--night) 16%,transparent)}
+.room b{font:650 1.15rem/1.3 var(--serif)}
+.room span{color:var(--mist);grid-column:1}
+.room em{font:700 1.15rem/1.3 var(--sans);font-style:normal;grid-row:1;grid-column:2;white-space:nowrap}
+.rooms__note{margin-top:18px;color:var(--mist);font-size:.95rem;max-width:60ch}
+
+/* фото */
+.gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:clamp(150px,17vw,250px);gap:10px;margin-top:32px}
+.gallery figure{position:relative;overflow:hidden;border-radius:6px;background:var(--ice)}
+.gallery figure:first-child{grid-column:span 2;grid-row:span 2}
+.gallery.n4{grid-template-columns:repeat(2,minmax(0,1fr))}
+.gallery.n4 figure:first-child{grid-column:auto;grid-row:auto}
+.gallery.n3{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}
+.gallery.n3 figure:first-child{grid-column:auto;grid-row:span 2}
+.gallery.n2{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:clamp(220px,30vw,420px)}
+.gallery.n2 figure:first-child,.gallery.n1 figure:first-child{grid-column:auto;grid-row:auto}
+.gallery.n1{grid-template-columns:1fr;grid-auto-rows:clamp(240px,40vw,520px)}
+.gallery img{width:100%;height:100%;object-fit:cover}
+.gallery figcaption{position:absolute;left:10px;bottom:10px;padding:4px 10px;border-radius:999px;background:color-mix(in srgb,var(--night) 82%,transparent);color:var(--snow);font-size:.82rem}
+
+/* отзывы */
+.reviews{background:var(--night);color:var(--snow)}
+.reviews__head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 32px}
+.reviews__head a{color:var(--lamp);font-weight:500}
+.quotes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(24px,3vw,48px);margin-top:40px}
+.quotes blockquote{font:500 1.08rem/1.6 var(--serif)}
+.quotes blockquote::before{content:"«";display:block;font:650 3rem/1 var(--serif);color:var(--lamp);margin-bottom:6px}
+.quotes figcaption{margin-top:14px;font-size:.9rem;color:color-mix(in srgb,var(--snow) 65%,var(--night))}
+
+/* где мы */
+.where{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:start}
+.where dl{display:grid;grid-template-columns:auto 1fr;gap:14px 24px;margin:28px 0 0}
+.where dt{color:var(--mist)}
+.where dd{margin:0;font-weight:500}
+.where__near li{padding:14px 0;border-bottom:1px solid color-mix(in srgb,var(--night) 14%,transparent)}
+.where__near li:first-child{padding-top:0}
+.where__cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn--ghost{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 2px var(--night)}
+.foot{padding:28px var(--gut) 96px;color:var(--mist);font-size:.9rem;border-top:1px solid color-mix(in srgb,var(--night) 12%,transparent)}
+
+/* липкая кнопка на телефоне */
+.dock{display:none}
+@media (max-width:860px){
+  .hero{grid-template-columns:1fr;min-height:0}
+  .hero__photo{min-height:56svh}
+  .why,.where{grid-template-columns:1fr}
+  .quotes{grid-template-columns:1fr}
+  .gallery{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:clamp(130px,38vw,220px)}
+  .top__tel{display:none}
+  .dock{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:20;gap:8px}
+  .dock .btn{flex:1;box-shadow:0 8px 24px rgb(0 0 0 / .25)}
+  .dock .btn--ghost{flex:0 0 auto;background:var(--snow)}
+}
+</style>
+</head>
+<body>
+<header class="top">
+  <a class="top__name" href="#top">Саха Люкс</a>
+  <div class="top__right">
+    <a class="top__tel" href="tel:+79142731707">+7 (914) 273-17-07</a>
+    <a class="btn btn--sm" href="#bron">Забронировать</a>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero__photo"><img src="assets/hero.webp" alt="Номер гостиницы Саха Люкс с двуспальной кроватью" fetchpriority="high" decoding="async" sizes="(max-width:860px) 100vw, 56vw"></div>
+  <div class="hero__text">
+    <h1>Гостиница «Саха Люкс» рядом с аэропортом Якутска</h1>
+    <p class="hero__offer">Номера как квартира-студия, все удобства в номере, завтрак по утрам. Недорого и недалеко от аэропорта.</p>
+    <p class="hero__rate"><b>3,7</b> на Яндекс Картах, 79 оценок</p>
+    <form class="tag" id="bron" data-wa="" data-tel="tel:+79142731707" data-name="Саха Люкс" onsubmit="return false">
+      <p class="tag__title">Ваши даты</p>
+      <div class="tag__row">
+        <label class="field">Заезд<input type="date" name="in" required></label>
+        <label class="field">Выезд<input type="date" name="out" required></label>
+      </div>
+      <div class="guests"><span>Гостей</span><div><button class="step" type="button" data-d="-1" aria-label="Меньше гостей">−</button> <output name="g">1</output> <button class="step" type="button" data-d="1" aria-label="Больше гостей">+</button></div></div>
+      <p class="tag__note" aria-live="polite"></p>
+      <button class="btn" type="submit">Позвонить и забронировать</button>
+      <a class="tag__alt" href="tel:+79142731707">или позвоните: +7 (914) 273-17-07</a>
+    </form>
+  </div>
+</section>
+
+<section class="wrap why">
+  <h2>Почему у нас останавливаются</h2>
+  <ul class="why__list"><li><b>Недалеко от аэропорта</b><p>Удобно перед вылетом и после прилёта.</p></li><li><b>Номера как студии</b><p>Все удобства в номере, есть трёхместные.</p></li><li><b>Завтрак</b><p>Гости хвалят яичницу по утрам.</p></li><li><b>Недорого</b><p>Всё есть для проживания – так пишут гости.</p></li></ul>
+</section>
+
+<section class="wrap rooms">
+  <h2>Номера и цены</h2>
+  <div class="rooms__table"><div class="room"><b>Номер-студия</b><em>по запросу</em><span>Двух- и трёхместные, санузел в номере</span></div></div>
+  <p class="rooms__note">Цену и свободные номера на ваши даты назовём по телефону.</p>
+</section>
+
+<section class="wrap">
+  <h2>Как у нас внутри</h2>
+  <div class="gallery n5"><figure><img src="assets/nomer.webp" alt="Номер со шторами и телевизором" loading="lazy" decoding="async" sizes="(max-width:860px) 100vw, 50vw"></figure><figure><img src="assets/nomer2.webp" alt="Номер с двумя кроватями" loading="lazy" decoding="async" sizes="(max-width:860px) 50vw, 25vw"></figure><figure><img src="assets/resepshen.webp" alt="Стойка администратора" loading="lazy" decoding="async" sizes="(max-width:860px) 50vw, 25vw"><figcaption>Ресепшен</figcaption></figure><figure><img src="assets/nomer3.webp" alt="Трёхместный номер" loading="lazy" decoding="async" sizes="(max-width:860px) 50vw, 25vw"></figure><figure><img src="assets/vannaya.webp" alt="Ванная комната" loading="lazy" decoding="async" sizes="(max-width:860px) 50vw, 25vw"><figcaption>Санузел</figcaption></figure></div>
+</section>
+
+<section class="wrap reviews">
+  <div class="reviews__head"><h2>Что пишут гости</h2><a href="https://yandex.ru/maps/org/sakha_lyuks/85335213944/" target="_blank" rel="noopener">Все отзывы на Яндекс Картах</a></div>
+  <div class="quotes"><figure><blockquote>Остались хорошего впечатления. Номера замечательные похоже на квартиру студию, уютно, комфортно, чистенько. Персонал очень дружелюбный.</blockquote><figcaption>Анна Бессонова, 18 мая 2021</figcaption></figure><figure><blockquote>Отличный отель, номера чистые в сан узле убрано, постели выстераны и без пятен, еда вкусная 👍</blockquote><figcaption>Степан Фельдман, 11 октября 2021</figcaption></figure><figure><blockquote>Очень понравилось, яичница по утрам просто чудесная, спасибо персоналу за отзывчивость!</blockquote><figcaption>Velikij Humangus, 9 февраля 2022</figcaption></figure></div>
+</section>
+
+<section class="wrap where">
+  <div>
+    <h2>Где мы</h2>
+    <dl>
+      <dt>Адрес</dt><dd>Якутск, ул. Можайского, 13/7А</dd>
+      <dt>Заселение</dt><dd>уточняйте по телефону</dd>
+      <dt>Телефон</dt><dd><a href="tel:+79142731707">+7 (914) 273-17-07</a></dd>
+    </dl>
+    <div class="where__cta">
+      <a class="btn" href="#bron">Выбрать даты</a>
+      <a class="btn btn--ghost" href="https://yandex.ru/maps/org/sakha_lyuks/85335213944/" target="_blank" rel="noopener">Открыть на карте</a>
+    </div>
+  </div>
+  <div><h2>Кому у нас удобно</h2><ul class="where__near" style="margin-top:28px"><li>Тем, кто прилетает или улетает</li><li>Семьям: трёхместные номера</li><li>Тем, кто ищет недорого</li></ul></div>
+</section>
+</main>
+
+<footer class="foot">Гостиница «Саха Люкс», Якутск, ул. Можайского, 13/7А</footer>
+<div class="dock"><a class="btn" href="#bron">Забронировать</a><a class="btn btn--ghost" href="tel:+79142731707" aria-label="Позвонить">Позвонить</a></div>
+
+<script>
+(() => {
+  const f = document.getElementById('bron'); if (!f) return;
+  const iso = (d) => d.toISOString().slice(0, 10);
+  const today = new Date(); today.setHours(12, 0, 0, 0);
+  const tmr = new Date(today); tmr.setDate(tmr.getDate() + 1);
+  const din = f.elements.in, dout = f.elements.out, out = f.elements.g, note = f.querySelector('.tag__note');
+  din.min = iso(today); din.value = iso(today); dout.min = iso(tmr); dout.value = iso(tmr);
+  let g = 1;
+  const M = ['января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря'];
+  const ru = (s) => { const d = new Date(s + 'T12:00:00'); return d.getDate() + ' ' + M[d.getMonth()]; };
+  const nightsWord = (n) => { const m = n % 10, h = n % 100; return m === 1 && h !== 11 ? 'ночь' : m >= 2 && m <= 4 && (h < 12 || h > 14) ? 'ночи' : 'ночей'; };
+  const nights = () => Math.round((new Date(dout.value) - new Date(din.value)) / 864e5);
+  const upd = () => {
+    const nextMin = new Date(din.value + 'T12:00:00'); nextMin.setDate(nextMin.getDate() + 1); dout.min = iso(nextMin);
+    if (dout.value <= din.value) dout.value = iso(nextMin);
+    const n = nights(); out.value = g;
+    note.textContent = n > 0 ? ru(din.value) + ' – ' + ru(dout.value) + ', ' + n + ' ' + nightsWord(n) + ', гостей: ' + g : 'Выберите дату выезда позже заезда';
+  };
+  f.querySelectorAll('.step').forEach((b) => b.addEventListener('click', () => { g = Math.min(12, Math.max(1, g + +b.dataset.d)); upd(); }));
+  din.addEventListener('change', upd); dout.addEventListener('change', upd);
+  f.addEventListener('submit', () => {
+    const n = nights(); if (n < 1) { upd(); return; }
+    if (!f.dataset.wa) { location.href = f.dataset.tel; return; }
+    const text = 'Здравствуйте! Хочу забронировать номер в «' + f.dataset.name + '»: заезд ' + ru(din.value) + ', выезд ' + ru(dout.value) + ' (' + n + ' ' + nightsWord(n) + '), гостей: ' + g + '. Есть свободные номера?';
+    window.open('https://wa.me/' + f.dataset.wa + '?text=' + encodeURIComponent(text), '_blank', 'noopener');
+  });
+  upd();
+})();
+</script>
+</body>
+</html>
